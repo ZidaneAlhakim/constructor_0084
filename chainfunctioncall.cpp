@@ -18,4 +18,7 @@ string getJudul(){
 
 int main()
 {
+    buku bukunya;
+    cout << bukunya.setJudul("Matemtika").getJudul(); //chain function call
+    return 0;
 }
